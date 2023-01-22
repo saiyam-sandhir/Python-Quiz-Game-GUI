@@ -1,3 +1,5 @@
+#MIT License Copyright (c) 2023 Saiyam Jain
+
 import html
 
 class QuizBrain:
