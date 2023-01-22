@@ -1,5 +1,6 @@
-#This module retrieves question data using Open Trivial Database API
+#MIT License Copyright (c) 2023 Saiyam Jain
 
+#This module retrieves question data using Open Trivial Database API
 import requests
 
 NUMBER_OF_QUESTIONS = 10
