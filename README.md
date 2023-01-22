@@ -38,6 +38,4 @@
 <p>API: <a href="https://opentdb.com/">Open Trivia Database</a></p>
 <p>Libraries & Packages: requests, html, tkinter</p>
 
-</h3>
-
-<center>*** Thanks ***</center>
+</br>
