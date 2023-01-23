@@ -1,16 +1,9 @@
 #MIT License Copyright (c) 2023 Saiyam Jain
 
-from question_model import Question
-from data import question_data
-from quiz_brain import QuizBrain
+from quiz_brain import new_quiz
 from ui import Ui
 
-question_bank = []
-for question in question_data:
-    question_text = question["question"]
-    question_answer = question["correct_answer"]
-    new_question = Question(question_text, question_answer)
-    question_bank.append(new_question)
+game_is_running = True
 
-quiz = QuizBrain(question_bank)
-quiz_ui = Ui(quiz)
+if game_is_running == True:
+    Ui(new_quiz())

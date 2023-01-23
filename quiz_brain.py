@@ -1,6 +1,8 @@
 #MIT License Copyright (c) 2023 Saiyam Jain
 
 import html
+from question_model import Question
+from data import get_data
 
 class QuizBrain:
 
@@ -20,3 +22,15 @@ class QuizBrain:
         self.question_number += 1
         q_text = html.unescape(self.current_question.text)
         return f"Q.{self.question_number}: {q_text}"
+
+def new_quiz():
+    question_bank = []
+    for question in get_data():
+        question_text = question["question"]
+        question_answer = question["correct_answer"]
+        new_question = Question(question_text, question_answer)
+        question_bank.append(new_question)
+
+    quiz = QuizBrain(question_bank)
+
+    return quiz
