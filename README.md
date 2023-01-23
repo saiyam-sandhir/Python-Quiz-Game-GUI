@@ -29,7 +29,7 @@
 
 <h3>Contact</h3>
 
-<p>You can contact me using through email: <a href="mailto: saiyamsandhir@gmail.com">saiyamsandhir@gmail.com</a>, or raise and issue in my introductory repository: [saiyam-sandir/saiyam-jain](https://github.com/saiyam-sandhir/saiyam-jain)</p>
+<p>You can contact me through email: <a href="mailto: saiyamsandhir@gmail.com">saiyamsandhir@gmail.com</a>, or raise and issue in my introductory repository: <a href = "https://github.com/saiyam-sandhir/saiyam-jain">saiyam-sandhir/saiyam-jain</a>
 
 </br>
 
