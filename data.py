@@ -5,7 +5,11 @@ import requests
 
 NUMBER_OF_QUESTIONS = 10
 
-response = requests.get(url = f"https://opentdb.com/api.php?amount={NUMBER_OF_QUESTIONS}&type=boolean")
-response.raise_for_status()
+def get_data(num_of_questions = NUMBER_OF_QUESTIONS):
 
-question_data = response.json()["results"]
+    response = requests.get(url = f"https://opentdb.com/api.php?amount={num_of_questions}&type=boolean")
+    response.raise_for_status()
+
+    question_data = response.json()["results"]
+
+    return question_data
