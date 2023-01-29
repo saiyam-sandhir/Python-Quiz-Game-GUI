@@ -36,6 +36,7 @@
 <h3>Addition Resources</h3>
 
 <p>API: <a href="https://opentdb.com/">Open Trivia Database</a></p>
-<p>Libraries & Packages: requests, html, tkinter</p>
+<p>Libraries & Packages: requests, html, tkinter, customtkinter, PIL</p>
+<p>Images: <a href="https://www.flaticon.com">Flaticon<a></p>
 
 </br>
